@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        redirectTime = Math.floor((Math.random() * 3600) + 1);
+        var textArray = ['404.html', 'index.html'];
+        var rand = textArray[Math.floor(Math.random() * textArray.length)];
+        redirectURL = rand
+        function timedRedirect() {
+            setTimeout("location.href = redirectURL;",redirectTime);
+        }
+    </script>
+    <meta name="Generator" content="Cocoa HTML Writer">
+        <meta name="CocoaVersion" content="1504.83">
+            <style type="text/css">
+                body {background-color: #000000}
+                p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 78.0px; font: 48.0px 'Times New Roman'; color: #ffffff; -webkit-text-stroke: #ffffff}
+                span.s1 {font-kerning: none}
+                </style>
+</head>
+
+<body onload="JavaScript:timedRedirect()">
+    <p class="p1"><span class="s1">LET ME</span></p>
+     <p class="p1"><span class="s1">SHOW YOU</span></p>
+      <p class="p1"><span class="s1">THE PATH</span></p>
+    
+</body>
+</html>
